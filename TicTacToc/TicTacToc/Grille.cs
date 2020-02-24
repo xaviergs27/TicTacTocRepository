@@ -51,6 +51,22 @@ namespace TicTacToc
 
             }
         }
+        public void DessinerX(Bitmap imageX)
+        {
+            using ( var g = Graphics.FromImage(imageX))
+            {
+                var pen = new Pen(Color.Black, 2);
+
+                float x = (imageX.Size.Width - 121);
+                float y = (imageX.Size.Height - 115);
+
+                float x2 = (imageX.Size.Width - 121);
+                float y2 = (imageX.Size.Height - 115);
+
+                g.DrawLine(pen, x, y, x + 121, y + 115);
+                g.DrawLine(pen, x2, y2 + 115, x2 + 121, y2);
+            }
+        }
 
     }
 }
