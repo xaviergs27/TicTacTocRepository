@@ -17,18 +17,38 @@ namespace TicTacToc
             InitializeComponent();
         }
 
+        PictureBox[] TableauPictureBox = new PictureBox[9];
+
         private void Form1_Load(object sender, EventArgs e)
         {
             Bitmap imageGrille = new Bitmap(pbGrille.Size.Width, pbGrille.Size.Height);
             Bitmap imageX = new Bitmap(pb1.Size.Width, pb1.Size.Height);
-            Grille maGrille = new Grille(0, 0 ,0 ,400);
+            Grille maGrille = new Grille();
+            Grille maGrilleX = new Grille();
+
+            TableauPictureBox[0] = pb1;
+            TableauPictureBox[1] = pb2;
+            TableauPictureBox[2] = pb3;
+            TableauPictureBox[3] = pb4;
+            TableauPictureBox[4] = pb5;
+            TableauPictureBox[5] = pb6;
+            TableauPictureBox[6] = pb7;
+            TableauPictureBox[7] = pb8;
+            TableauPictureBox[8] = pb9;
+
+
+            maGrille.DessinerGrille(imageGrille);
+            maGrilleX.DessinerX(imageX);
+            pbGrille.Image = imageGrille;
+            pb1.Image = imageX;
+
+            for (int compteur = 0; compteur <= TableauPictureBox.GetUpperBound(0); compteur++)
+            {
+                TableauPictureBox[compteur].Visible = false;
+            }
 
             
 
-            maGrille.DessinerGrille(imageGrille);
-            maGrille.DessinerX(imageX);
-            pbGrille.Image = imageGrille;
-            pb1.Image = imageX;
         }
 
         private void CheckBox4_CheckedChanged(object sender, EventArgs e)
@@ -38,6 +58,13 @@ namespace TicTacToc
 
         private void PictureBox1_MouseClick(object sender, MouseEventArgs e)
         {
+
+        }
+
+        private void Pb1_Click(object sender, EventArgs e)
+        {
+            cb1.Checked = true;
+            
 
         }
     }

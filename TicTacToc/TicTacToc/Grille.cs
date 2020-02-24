@@ -16,13 +16,10 @@ namespace TicTacToc
         private float Hauteur2;
 
 
-        public Grille(float Largeur, float Hauteur, float Largeur2, float Hauteur2)
-        {
-            this.Largeur = Largeur;
-            this.Hauteur = Hauteur;
-            this.Largeur2 = Largeur2;
-            this.Hauteur2 = Hauteur2;
-        }
+        
+
+
+        
 
         public void DessinerGrille(Bitmap imageGrille)
         {
@@ -53,7 +50,7 @@ namespace TicTacToc
         }
         public void DessinerX(Bitmap imageX)
         {
-            using ( var g = Graphics.FromImage(imageX))
+            using ( var b = Graphics.FromImage(imageX))
             {
                 var pen = new Pen(Color.Black, 2);
 
@@ -63,8 +60,8 @@ namespace TicTacToc
                 float x2 = (imageX.Size.Width - 121);
                 float y2 = (imageX.Size.Height - 115);
 
-                g.DrawLine(pen, x, y, x + 121, y + 115);
-                g.DrawLine(pen, x2, y2 + 115, x2 + 121, y2);
+                b.DrawLine(pen, x, y, x + 121, y + 115);
+                b.DrawLine(pen, x2, y2 + 115, x2 + 121, y2);
             }
         }
 

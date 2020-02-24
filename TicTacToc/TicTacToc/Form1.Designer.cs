@@ -74,6 +74,7 @@
             this.pb1.Size = new System.Drawing.Size(121, 115);
             this.pb1.TabIndex = 18;
             this.pb1.TabStop = false;
+            this.pb1.Click += new System.EventHandler(this.Pb1_Click);
             this.pb1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PictureBox1_MouseClick);
             // 
             // pb2
