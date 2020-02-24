@@ -22,7 +22,7 @@ namespace TicTacToc
         private void Form1_Load(object sender, EventArgs e)
         {
             Bitmap imageGrille = new Bitmap(pbGrille.Size.Width, pbGrille.Size.Height);
-            Bitmap imageX = new Bitmap(pb1.Size.Width, pb1.Size.Height);
+            //Bitmap imageX = new Bitmap(pb1.Size.Width, pb1.Size.Height);
             Grille maGrille = new Grille();
             Grille maGrilleX = new Grille();
 
@@ -38,14 +38,11 @@ namespace TicTacToc
 
 
             maGrille.DessinerGrille(imageGrille);
-            maGrilleX.DessinerX(imageX);
+            //maGrilleX.DessinerX(imageX);
             pbGrille.Image = imageGrille;
-            pb1.Image = imageX;
+            //pb1.Image = imageX;
 
-            for (int compteur = 0; compteur <= TableauPictureBox.GetUpperBound(0); compteur++)
-            {
-                TableauPictureBox[compteur].Visible = false;
-            }
+            
 
             
 
@@ -63,9 +60,13 @@ namespace TicTacToc
 
         private void Pb1_Click(object sender, EventArgs e)
         {
+            Grille maGrilleX = new Grille();
+            PictureBox ImageCourante;
+            ImageCourante = (PictureBox)sender;
+            Bitmap imageX = new Bitmap(ImageCourante.Size.Width, ImageCourante.Size.Height);
             cb1.Checked = true;
-            
-
+            maGrilleX.DessinerX(imageX);
+            ImageCourante.Image = imageX;
         }
     }
 }

@@ -79,11 +79,12 @@
             // 
             // pb2
             // 
-            this.pb2.Location = new System.Drawing.Point(487, 12);
+            this.pb2.Location = new System.Drawing.Point(501, 12);
             this.pb2.Name = "pb2";
-            this.pb2.Size = new System.Drawing.Size(146, 115);
+            this.pb2.Size = new System.Drawing.Size(121, 115);
             this.pb2.TabIndex = 19;
             this.pb2.TabStop = false;
+            this.pb2.Click += new System.EventHandler(this.Pb1_Click);
             // 
             // pb3
             // 
@@ -92,6 +93,7 @@
             this.pb3.Size = new System.Drawing.Size(121, 115);
             this.pb3.TabIndex = 20;
             this.pb3.TabStop = false;
+            this.pb3.Click += new System.EventHandler(this.Pb1_Click);
             // 
             // pb4
             // 
@@ -100,6 +102,7 @@
             this.pb4.Size = new System.Drawing.Size(121, 115);
             this.pb4.TabIndex = 21;
             this.pb4.TabStop = false;
+            this.pb4.Click += new System.EventHandler(this.Pb1_Click);
             // 
             // pb6
             // 
@@ -108,6 +111,7 @@
             this.pb6.Size = new System.Drawing.Size(121, 115);
             this.pb6.TabIndex = 22;
             this.pb6.TabStop = false;
+            this.pb6.Click += new System.EventHandler(this.Pb1_Click);
             // 
             // pb7
             // 
@@ -116,6 +120,7 @@
             this.pb7.Size = new System.Drawing.Size(121, 115);
             this.pb7.TabIndex = 23;
             this.pb7.TabStop = false;
+            this.pb7.Click += new System.EventHandler(this.Pb1_Click);
             // 
             // pb9
             // 
@@ -124,22 +129,25 @@
             this.pb9.Size = new System.Drawing.Size(121, 115);
             this.pb9.TabIndex = 24;
             this.pb9.TabStop = false;
+            this.pb9.Click += new System.EventHandler(this.Pb1_Click);
             // 
             // pb5
             // 
-            this.pb5.Location = new System.Drawing.Point(487, 155);
+            this.pb5.Location = new System.Drawing.Point(501, 155);
             this.pb5.Name = "pb5";
-            this.pb5.Size = new System.Drawing.Size(146, 115);
+            this.pb5.Size = new System.Drawing.Size(121, 115);
             this.pb5.TabIndex = 25;
             this.pb5.TabStop = false;
+            this.pb5.Click += new System.EventHandler(this.Pb1_Click);
             // 
             // pb8
             // 
-            this.pb8.Location = new System.Drawing.Point(487, 297);
+            this.pb8.Location = new System.Drawing.Point(501, 297);
             this.pb8.Name = "pb8";
-            this.pb8.Size = new System.Drawing.Size(146, 115);
+            this.pb8.Size = new System.Drawing.Size(121, 115);
             this.pb8.TabIndex = 26;
             this.pb8.TabStop = false;
+            this.pb8.Click += new System.EventHandler(this.Pb1_Click);
             // 
             // cb1
             // 
