@@ -29,16 +29,34 @@
         private void InitializeComponent()
         {
             this.pbGrille = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.cb1 = new System.Windows.Forms.CheckBox();
+            this.cb2 = new System.Windows.Forms.CheckBox();
+            this.cb3 = new System.Windows.Forms.CheckBox();
+            this.cb6 = new System.Windows.Forms.CheckBox();
+            this.cb5 = new System.Windows.Forms.CheckBox();
+            this.cb4 = new System.Windows.Forms.CheckBox();
+            this.cb9 = new System.Windows.Forms.CheckBox();
+            this.cb8 = new System.Windows.Forms.CheckBox();
+            this.cb7 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbGrille)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // pbGrille
@@ -49,122 +67,241 @@
             this.pbGrille.TabIndex = 0;
             this.pbGrille.TabStop = false;
             // 
-            // button1
+            // pictureBox1
             // 
-            this.button1.Location = new System.Drawing.Point(360, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 115);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.pictureBox1.Location = new System.Drawing.Point(360, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(121, 115);
+            this.pictureBox1.TabIndex = 18;
+            this.pictureBox1.TabStop = false;
             // 
-            // button2
+            // pictureBox2
             // 
-            this.button2.Location = new System.Drawing.Point(487, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(146, 115);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.pictureBox2.Location = new System.Drawing.Point(487, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(146, 115);
+            this.pictureBox2.TabIndex = 19;
+            this.pictureBox2.TabStop = false;
             // 
-            // button3
+            // pictureBox3
             // 
-            this.button3.Location = new System.Drawing.Point(487, 155);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(146, 108);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.pictureBox3.Location = new System.Drawing.Point(639, 12);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(121, 115);
+            this.pictureBox3.TabIndex = 20;
+            this.pictureBox3.TabStop = false;
             // 
-            // button4
+            // pictureBox4
             // 
-            this.button4.Location = new System.Drawing.Point(639, 12);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(121, 115);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.pictureBox4.Location = new System.Drawing.Point(360, 155);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(121, 115);
+            this.pictureBox4.TabIndex = 21;
+            this.pictureBox4.TabStop = false;
             // 
-            // button5
+            // pictureBox5
             // 
-            this.button5.Location = new System.Drawing.Point(487, 291);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(146, 121);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.pictureBox5.Location = new System.Drawing.Point(639, 155);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(121, 115);
+            this.pictureBox5.TabIndex = 22;
+            this.pictureBox5.TabStop = false;
             // 
-            // button6
+            // pictureBox6
             // 
-            this.button6.Location = new System.Drawing.Point(639, 155);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(121, 108);
-            this.button6.TabIndex = 7;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.pictureBox6.Location = new System.Drawing.Point(360, 297);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(121, 115);
+            this.pictureBox6.TabIndex = 23;
+            this.pictureBox6.TabStop = false;
             // 
-            // button7
+            // pictureBox7
             // 
-            this.button7.Location = new System.Drawing.Point(639, 291);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(121, 121);
-            this.button7.TabIndex = 8;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.pictureBox7.Location = new System.Drawing.Point(639, 297);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(121, 115);
+            this.pictureBox7.TabIndex = 24;
+            this.pictureBox7.TabStop = false;
             // 
-            // button8
+            // pictureBox8
             // 
-            this.button8.Location = new System.Drawing.Point(360, 155);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(119, 108);
-            this.button8.TabIndex = 9;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
+            this.pictureBox8.Location = new System.Drawing.Point(487, 155);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(146, 115);
+            this.pictureBox8.TabIndex = 25;
+            this.pictureBox8.TabStop = false;
             // 
-            // button9
+            // pictureBox9
             // 
-            this.button9.Location = new System.Drawing.Point(360, 291);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(121, 121);
-            this.button9.TabIndex = 10;
-            this.button9.Text = "button9";
-            this.button9.UseVisualStyleBackColor = true;
+            this.pictureBox9.Location = new System.Drawing.Point(487, 297);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(146, 115);
+            this.pictureBox9.TabIndex = 26;
+            this.pictureBox9.TabStop = false;
+            // 
+            // cb1
+            // 
+            this.cb1.AutoSize = true;
+            this.cb1.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.cb1.Location = new System.Drawing.Point(12, 12);
+            this.cb1.Name = "cb1";
+            this.cb1.Size = new System.Drawing.Size(17, 31);
+            this.cb1.TabIndex = 27;
+            this.cb1.Text = "1";
+            this.cb1.UseVisualStyleBackColor = true;
+            // 
+            // cb2
+            // 
+            this.cb2.AutoSize = true;
+            this.cb2.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.cb2.Location = new System.Drawing.Point(35, 12);
+            this.cb2.Name = "cb2";
+            this.cb2.Size = new System.Drawing.Size(17, 31);
+            this.cb2.TabIndex = 28;
+            this.cb2.Text = "2";
+            this.cb2.UseVisualStyleBackColor = true;
+            // 
+            // cb3
+            // 
+            this.cb3.AutoSize = true;
+            this.cb3.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.cb3.Location = new System.Drawing.Point(58, 12);
+            this.cb3.Name = "cb3";
+            this.cb3.Size = new System.Drawing.Size(17, 31);
+            this.cb3.TabIndex = 29;
+            this.cb3.Text = "3";
+            this.cb3.UseVisualStyleBackColor = true;
+            // 
+            // cb6
+            // 
+            this.cb6.AutoSize = true;
+            this.cb6.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.cb6.Location = new System.Drawing.Point(58, 49);
+            this.cb6.Name = "cb6";
+            this.cb6.Size = new System.Drawing.Size(17, 31);
+            this.cb6.TabIndex = 32;
+            this.cb6.Text = "6";
+            this.cb6.UseVisualStyleBackColor = true;
+            this.cb6.CheckedChanged += new System.EventHandler(this.CheckBox4_CheckedChanged);
+            // 
+            // cb5
+            // 
+            this.cb5.AutoSize = true;
+            this.cb5.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.cb5.Location = new System.Drawing.Point(35, 49);
+            this.cb5.Name = "cb5";
+            this.cb5.Size = new System.Drawing.Size(17, 31);
+            this.cb5.TabIndex = 31;
+            this.cb5.Text = "5";
+            this.cb5.UseVisualStyleBackColor = true;
+            // 
+            // cb4
+            // 
+            this.cb4.AutoSize = true;
+            this.cb4.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.cb4.Location = new System.Drawing.Point(12, 49);
+            this.cb4.Name = "cb4";
+            this.cb4.Size = new System.Drawing.Size(17, 31);
+            this.cb4.TabIndex = 30;
+            this.cb4.Text = "4";
+            this.cb4.UseVisualStyleBackColor = true;
+            // 
+            // cb9
+            // 
+            this.cb9.AutoSize = true;
+            this.cb9.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.cb9.Location = new System.Drawing.Point(58, 86);
+            this.cb9.Name = "cb9";
+            this.cb9.Size = new System.Drawing.Size(17, 31);
+            this.cb9.TabIndex = 35;
+            this.cb9.Text = "9";
+            this.cb9.UseVisualStyleBackColor = true;
+            // 
+            // cb8
+            // 
+            this.cb8.AutoSize = true;
+            this.cb8.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.cb8.Location = new System.Drawing.Point(35, 86);
+            this.cb8.Name = "cb8";
+            this.cb8.Size = new System.Drawing.Size(17, 31);
+            this.cb8.TabIndex = 34;
+            this.cb8.Text = "8";
+            this.cb8.UseVisualStyleBackColor = true;
+            // 
+            // cb7
+            // 
+            this.cb7.AutoSize = true;
+            this.cb7.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.cb7.Location = new System.Drawing.Point(12, 86);
+            this.cb7.Name = "cb7";
+            this.cb7.Size = new System.Drawing.Size(17, 31);
+            this.cb7.TabIndex = 33;
+            this.cb7.Text = "7";
+            this.cb7.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(772, 428);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.cb9);
+            this.Controls.Add(this.cb8);
+            this.Controls.Add(this.cb7);
+            this.Controls.Add(this.cb6);
+            this.Controls.Add(this.cb5);
+            this.Controls.Add(this.cb4);
+            this.Controls.Add(this.cb3);
+            this.Controls.Add(this.cb2);
+            this.Controls.Add(this.cb1);
+            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pbGrille);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "TicTacToc";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbGrille)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.PictureBox pbGrille;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.CheckBox cb1;
+        private System.Windows.Forms.CheckBox cb2;
+        private System.Windows.Forms.CheckBox cb3;
+        private System.Windows.Forms.CheckBox cb6;
+        private System.Windows.Forms.CheckBox cb5;
+        private System.Windows.Forms.CheckBox cb4;
+        private System.Windows.Forms.CheckBox cb9;
+        private System.Windows.Forms.CheckBox cb8;
+        private System.Windows.Forms.CheckBox cb7;
     }
 }
 

@@ -26,5 +26,10 @@ namespace TicTacToc
             maGrille.DessinerGrille(imageGrille);
             pbGrille.Image = imageGrille;
         }
+
+        private void CheckBox4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
