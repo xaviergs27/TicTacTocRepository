@@ -163,14 +163,14 @@
             // x3ToolStripMenuItem
             // 
             this.x3ToolStripMenuItem.Name = "x3ToolStripMenuItem";
-            this.x3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.x3ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.x3ToolStripMenuItem.Text = "3x3";
             this.x3ToolStripMenuItem.Click += new System.EventHandler(this.x3ToolStripMenuItem_Click);
             // 
             // x4ToolStripMenuItem
             // 
             this.x4ToolStripMenuItem.Name = "x4ToolStripMenuItem";
-            this.x4ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.x4ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.x4ToolStripMenuItem.Text = "Recommencer 4x4";
             this.x4ToolStripMenuItem.Click += new System.EventHandler(this.x4ToolStripMenuItem_Click);
             // 
@@ -267,6 +267,7 @@
             this.Controls.Add(this.A3);
             this.Controls.Add(this.menuStrip1);
             this.Name = "Grille4x4";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Grille4x4";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Grille4x4_FormClosed);
             this.menuStrip1.ResumeLayout(false);
