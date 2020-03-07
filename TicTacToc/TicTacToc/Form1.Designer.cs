@@ -28,264 +28,167 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pbGrille = new System.Windows.Forms.PictureBox();
-            this.pb1 = new System.Windows.Forms.PictureBox();
-            this.pb2 = new System.Windows.Forms.PictureBox();
-            this.pb3 = new System.Windows.Forms.PictureBox();
-            this.pb4 = new System.Windows.Forms.PictureBox();
-            this.pb6 = new System.Windows.Forms.PictureBox();
-            this.pb7 = new System.Windows.Forms.PictureBox();
-            this.pb9 = new System.Windows.Forms.PictureBox();
-            this.pb5 = new System.Windows.Forms.PictureBox();
-            this.pb8 = new System.Windows.Forms.PictureBox();
-            this.cb1 = new System.Windows.Forms.CheckBox();
-            this.cb2 = new System.Windows.Forms.CheckBox();
-            this.cb3 = new System.Windows.Forms.CheckBox();
-            this.cb6 = new System.Windows.Forms.CheckBox();
-            this.cb5 = new System.Windows.Forms.CheckBox();
-            this.cb4 = new System.Windows.Forms.CheckBox();
-            this.cb9 = new System.Windows.Forms.CheckBox();
-            this.cb8 = new System.Windows.Forms.CheckBox();
-            this.cb7 = new System.Windows.Forms.CheckBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pbGrille)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb8)).BeginInit();
+            this.A3 = new System.Windows.Forms.Button();
+            this.A2 = new System.Windows.Forms.Button();
+            this.A1 = new System.Windows.Forms.Button();
+            this.B1 = new System.Windows.Forms.Button();
+            this.B2 = new System.Windows.Forms.Button();
+            this.B3 = new System.Windows.Forms.Button();
+            this.C1 = new System.Windows.Forms.Button();
+            this.C2 = new System.Windows.Forms.Button();
+            this.C3 = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.nouvellePartieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.x3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.x4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pbGrille
+            // A3
             // 
-            this.pbGrille.Location = new System.Drawing.Point(360, 12);
-            this.pbGrille.Name = "pbGrille";
-            this.pbGrille.Size = new System.Drawing.Size(400, 400);
-            this.pbGrille.TabIndex = 0;
-            this.pbGrille.TabStop = false;
+            this.A3.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A3.Location = new System.Drawing.Point(230, 27);
+            this.A3.Name = "A3";
+            this.A3.Size = new System.Drawing.Size(100, 100);
+            this.A3.TabIndex = 0;
+            this.A3.UseVisualStyleBackColor = true;
+            this.A3.Click += new System.EventHandler(this.Button_click);
             // 
-            // pb1
+            // A2
             // 
-            this.pb1.Location = new System.Drawing.Point(360, 12);
-            this.pb1.Name = "pb1";
-            this.pb1.Size = new System.Drawing.Size(121, 115);
-            this.pb1.TabIndex = 18;
-            this.pb1.TabStop = false;
-            this.pb1.Click += new System.EventHandler(this.Pb1_Click);
-            this.pb1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PictureBox1_MouseClick);
+            this.A2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A2.Location = new System.Drawing.Point(124, 27);
+            this.A2.Name = "A2";
+            this.A2.Size = new System.Drawing.Size(100, 100);
+            this.A2.TabIndex = 1;
+            this.A2.UseVisualStyleBackColor = true;
+            this.A2.Click += new System.EventHandler(this.Button_click);
             // 
-            // pb2
+            // A1
             // 
-            this.pb2.Location = new System.Drawing.Point(501, 12);
-            this.pb2.Name = "pb2";
-            this.pb2.Size = new System.Drawing.Size(121, 115);
-            this.pb2.TabIndex = 19;
-            this.pb2.TabStop = false;
-            this.pb2.Click += new System.EventHandler(this.Pb1_Click);
+            this.A1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A1.Location = new System.Drawing.Point(18, 27);
+            this.A1.Name = "A1";
+            this.A1.Size = new System.Drawing.Size(100, 100);
+            this.A1.TabIndex = 2;
+            this.A1.UseVisualStyleBackColor = true;
+            this.A1.Click += new System.EventHandler(this.Button_click);
             // 
-            // pb3
+            // B1
             // 
-            this.pb3.Location = new System.Drawing.Point(639, 12);
-            this.pb3.Name = "pb3";
-            this.pb3.Size = new System.Drawing.Size(121, 115);
-            this.pb3.TabIndex = 20;
-            this.pb3.TabStop = false;
-            this.pb3.Click += new System.EventHandler(this.Pb1_Click);
+            this.B1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B1.Location = new System.Drawing.Point(18, 133);
+            this.B1.Name = "B1";
+            this.B1.Size = new System.Drawing.Size(100, 100);
+            this.B1.TabIndex = 3;
+            this.B1.UseVisualStyleBackColor = true;
+            this.B1.Click += new System.EventHandler(this.Button_click);
             // 
-            // pb4
+            // B2
             // 
-            this.pb4.Location = new System.Drawing.Point(360, 155);
-            this.pb4.Name = "pb4";
-            this.pb4.Size = new System.Drawing.Size(121, 115);
-            this.pb4.TabIndex = 21;
-            this.pb4.TabStop = false;
-            this.pb4.Click += new System.EventHandler(this.Pb1_Click);
+            this.B2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B2.Location = new System.Drawing.Point(124, 133);
+            this.B2.Name = "B2";
+            this.B2.Size = new System.Drawing.Size(100, 100);
+            this.B2.TabIndex = 4;
+            this.B2.UseVisualStyleBackColor = true;
+            this.B2.Click += new System.EventHandler(this.Button_click);
             // 
-            // pb6
+            // B3
             // 
-            this.pb6.Location = new System.Drawing.Point(639, 155);
-            this.pb6.Name = "pb6";
-            this.pb6.Size = new System.Drawing.Size(121, 115);
-            this.pb6.TabIndex = 22;
-            this.pb6.TabStop = false;
-            this.pb6.Click += new System.EventHandler(this.Pb1_Click);
+            this.B3.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B3.Location = new System.Drawing.Point(230, 133);
+            this.B3.Name = "B3";
+            this.B3.Size = new System.Drawing.Size(100, 100);
+            this.B3.TabIndex = 5;
+            this.B3.UseVisualStyleBackColor = true;
+            this.B3.Click += new System.EventHandler(this.Button_click);
             // 
-            // pb7
+            // C1
             // 
-            this.pb7.Location = new System.Drawing.Point(360, 297);
-            this.pb7.Name = "pb7";
-            this.pb7.Size = new System.Drawing.Size(121, 115);
-            this.pb7.TabIndex = 23;
-            this.pb7.TabStop = false;
-            this.pb7.Click += new System.EventHandler(this.Pb1_Click);
+            this.C1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C1.Location = new System.Drawing.Point(18, 239);
+            this.C1.Name = "C1";
+            this.C1.Size = new System.Drawing.Size(100, 100);
+            this.C1.TabIndex = 6;
+            this.C1.UseVisualStyleBackColor = true;
+            this.C1.Click += new System.EventHandler(this.Button_click);
             // 
-            // pb9
+            // C2
             // 
-            this.pb9.Location = new System.Drawing.Point(639, 297);
-            this.pb9.Name = "pb9";
-            this.pb9.Size = new System.Drawing.Size(121, 115);
-            this.pb9.TabIndex = 24;
-            this.pb9.TabStop = false;
-            this.pb9.Click += new System.EventHandler(this.Pb1_Click);
+            this.C2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C2.Location = new System.Drawing.Point(124, 239);
+            this.C2.Name = "C2";
+            this.C2.Size = new System.Drawing.Size(100, 100);
+            this.C2.TabIndex = 7;
+            this.C2.UseVisualStyleBackColor = true;
+            this.C2.Click += new System.EventHandler(this.Button_click);
             // 
-            // pb5
+            // C3
             // 
-            this.pb5.Location = new System.Drawing.Point(501, 155);
-            this.pb5.Name = "pb5";
-            this.pb5.Size = new System.Drawing.Size(121, 115);
-            this.pb5.TabIndex = 25;
-            this.pb5.TabStop = false;
-            this.pb5.Click += new System.EventHandler(this.Pb1_Click);
+            this.C3.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C3.Location = new System.Drawing.Point(230, 239);
+            this.C3.Name = "C3";
+            this.C3.Size = new System.Drawing.Size(100, 100);
+            this.C3.TabIndex = 8;
+            this.C3.UseVisualStyleBackColor = true;
+            this.C3.Click += new System.EventHandler(this.Button_click);
             // 
-            // pb8
+            // menuStrip1
             // 
-            this.pb8.Location = new System.Drawing.Point(501, 297);
-            this.pb8.Name = "pb8";
-            this.pb8.Size = new System.Drawing.Size(121, 115);
-            this.pb8.TabIndex = 26;
-            this.pb8.TabStop = false;
-            this.pb8.Click += new System.EventHandler(this.Pb1_Click);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.nouvellePartieToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(342, 24);
+            this.menuStrip1.TabIndex = 9;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // cb1
+            // nouvellePartieToolStripMenuItem
             // 
-            this.cb1.AutoSize = true;
-            this.cb1.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.cb1.Location = new System.Drawing.Point(12, 12);
-            this.cb1.Name = "cb1";
-            this.cb1.Size = new System.Drawing.Size(17, 31);
-            this.cb1.TabIndex = 27;
-            this.cb1.Text = "1";
-            this.cb1.UseVisualStyleBackColor = true;
+            this.nouvellePartieToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x3ToolStripMenuItem,
+            this.x4ToolStripMenuItem});
+            this.nouvellePartieToolStripMenuItem.Name = "nouvellePartieToolStripMenuItem";
+            this.nouvellePartieToolStripMenuItem.Size = new System.Drawing.Size(99, 20);
+            this.nouvellePartieToolStripMenuItem.Text = "Nouvelle Partie";
             // 
-            // cb2
+            // x3ToolStripMenuItem
             // 
-            this.cb2.AutoSize = true;
-            this.cb2.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.cb2.Location = new System.Drawing.Point(35, 12);
-            this.cb2.Name = "cb2";
-            this.cb2.Size = new System.Drawing.Size(17, 31);
-            this.cb2.TabIndex = 28;
-            this.cb2.Text = "2";
-            this.cb2.UseVisualStyleBackColor = true;
+            this.x3ToolStripMenuItem.Name = "x3ToolStripMenuItem";
+            this.x3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.x3ToolStripMenuItem.Text = "Recommencer 3x3";
+            this.x3ToolStripMenuItem.Click += new System.EventHandler(this.x3ToolStripMenuItem_Click);
             // 
-            // cb3
+            // x4ToolStripMenuItem
             // 
-            this.cb3.AutoSize = true;
-            this.cb3.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.cb3.Location = new System.Drawing.Point(58, 12);
-            this.cb3.Name = "cb3";
-            this.cb3.Size = new System.Drawing.Size(17, 31);
-            this.cb3.TabIndex = 29;
-            this.cb3.Text = "3";
-            this.cb3.UseVisualStyleBackColor = true;
-            // 
-            // cb6
-            // 
-            this.cb6.AutoSize = true;
-            this.cb6.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.cb6.Location = new System.Drawing.Point(58, 49);
-            this.cb6.Name = "cb6";
-            this.cb6.Size = new System.Drawing.Size(17, 31);
-            this.cb6.TabIndex = 32;
-            this.cb6.Text = "6";
-            this.cb6.UseVisualStyleBackColor = true;
-            this.cb6.CheckedChanged += new System.EventHandler(this.CheckBox4_CheckedChanged);
-            // 
-            // cb5
-            // 
-            this.cb5.AutoSize = true;
-            this.cb5.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.cb5.Location = new System.Drawing.Point(35, 49);
-            this.cb5.Name = "cb5";
-            this.cb5.Size = new System.Drawing.Size(17, 31);
-            this.cb5.TabIndex = 31;
-            this.cb5.Text = "5";
-            this.cb5.UseVisualStyleBackColor = true;
-            // 
-            // cb4
-            // 
-            this.cb4.AutoSize = true;
-            this.cb4.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.cb4.Location = new System.Drawing.Point(12, 49);
-            this.cb4.Name = "cb4";
-            this.cb4.Size = new System.Drawing.Size(17, 31);
-            this.cb4.TabIndex = 30;
-            this.cb4.Text = "4";
-            this.cb4.UseVisualStyleBackColor = true;
-            // 
-            // cb9
-            // 
-            this.cb9.AutoSize = true;
-            this.cb9.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.cb9.Location = new System.Drawing.Point(58, 86);
-            this.cb9.Name = "cb9";
-            this.cb9.Size = new System.Drawing.Size(17, 31);
-            this.cb9.TabIndex = 35;
-            this.cb9.Text = "9";
-            this.cb9.UseVisualStyleBackColor = true;
-            // 
-            // cb8
-            // 
-            this.cb8.AutoSize = true;
-            this.cb8.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.cb8.Location = new System.Drawing.Point(35, 86);
-            this.cb8.Name = "cb8";
-            this.cb8.Size = new System.Drawing.Size(17, 31);
-            this.cb8.TabIndex = 34;
-            this.cb8.Text = "8";
-            this.cb8.UseVisualStyleBackColor = true;
-            // 
-            // cb7
-            // 
-            this.cb7.AutoSize = true;
-            this.cb7.CheckAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.cb7.Location = new System.Drawing.Point(12, 86);
-            this.cb7.Name = "cb7";
-            this.cb7.Size = new System.Drawing.Size(17, 31);
-            this.cb7.TabIndex = 33;
-            this.cb7.Text = "7";
-            this.cb7.UseVisualStyleBackColor = true;
+            this.x4ToolStripMenuItem.Name = "x4ToolStripMenuItem";
+            this.x4ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.x4ToolStripMenuItem.Text = "4x4";
+            this.x4ToolStripMenuItem.Click += new System.EventHandler(this.x4ToolStripMenuItem_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(772, 428);
-            this.Controls.Add(this.cb9);
-            this.Controls.Add(this.cb8);
-            this.Controls.Add(this.cb7);
-            this.Controls.Add(this.cb6);
-            this.Controls.Add(this.cb5);
-            this.Controls.Add(this.cb4);
-            this.Controls.Add(this.cb3);
-            this.Controls.Add(this.cb2);
-            this.Controls.Add(this.cb1);
-            this.Controls.Add(this.pb8);
-            this.Controls.Add(this.pb5);
-            this.Controls.Add(this.pb9);
-            this.Controls.Add(this.pb7);
-            this.Controls.Add(this.pb6);
-            this.Controls.Add(this.pb4);
-            this.Controls.Add(this.pb3);
-            this.Controls.Add(this.pb2);
-            this.Controls.Add(this.pb1);
-            this.Controls.Add(this.pbGrille);
+            this.ClientSize = new System.Drawing.Size(342, 352);
+            this.Controls.Add(this.C3);
+            this.Controls.Add(this.C2);
+            this.Controls.Add(this.C1);
+            this.Controls.Add(this.B3);
+            this.Controls.Add(this.B2);
+            this.Controls.Add(this.B1);
+            this.Controls.Add(this.A1);
+            this.Controls.Add(this.A2);
+            this.Controls.Add(this.A3);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "TicTacToc";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pbGrille)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb8)).EndInit();
+            this.Click += new System.EventHandler(this.Button_click);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -293,25 +196,19 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pbGrille;
-        private System.Windows.Forms.PictureBox pb1;
-        private System.Windows.Forms.PictureBox pb2;
-        private System.Windows.Forms.PictureBox pb3;
-        private System.Windows.Forms.PictureBox pb4;
-        private System.Windows.Forms.PictureBox pb6;
-        private System.Windows.Forms.PictureBox pb7;
-        private System.Windows.Forms.PictureBox pb9;
-        private System.Windows.Forms.PictureBox pb5;
-        private System.Windows.Forms.PictureBox pb8;
-        private System.Windows.Forms.CheckBox cb1;
-        private System.Windows.Forms.CheckBox cb2;
-        private System.Windows.Forms.CheckBox cb3;
-        private System.Windows.Forms.CheckBox cb6;
-        private System.Windows.Forms.CheckBox cb5;
-        private System.Windows.Forms.CheckBox cb4;
-        private System.Windows.Forms.CheckBox cb9;
-        private System.Windows.Forms.CheckBox cb8;
-        private System.Windows.Forms.CheckBox cb7;
+        private System.Windows.Forms.Button A3;
+        private System.Windows.Forms.Button A2;
+        private System.Windows.Forms.Button A1;
+        private System.Windows.Forms.Button B1;
+        private System.Windows.Forms.Button B2;
+        private System.Windows.Forms.Button B3;
+        private System.Windows.Forms.Button C1;
+        private System.Windows.Forms.Button C2;
+        private System.Windows.Forms.Button C3;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem nouvellePartieToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem x3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem x4ToolStripMenuItem;
     }
 }
 
