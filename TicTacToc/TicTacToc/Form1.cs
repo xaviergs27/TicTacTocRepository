@@ -58,7 +58,7 @@ namespace TicTacToc
         }
 
         private void VerificationGagnant()
-        {
+        {            
             bool Gagnant = false;
 
             //Check pour Horizontal
